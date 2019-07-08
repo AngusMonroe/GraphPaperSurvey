@@ -1,4 +1,3 @@
 # Graph Paper Survey
 
-## Link Prediction
-
+This is a repo for graph-related paper study.
