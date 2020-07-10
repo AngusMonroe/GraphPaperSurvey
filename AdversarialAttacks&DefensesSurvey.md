@@ -3,7 +3,7 @@
 ## Survey
 
 - **[Adversarial Attacks and Defenses on Graphs:
-A Review and Empirical Study](./note/AdversarialAttacksandDefensesonGraphs-AReviewandEmpiricalStudy.md.md)** (Preprint) [Paper](https://arxiv.org/pdf/2003.00653.pdf)
+A Review and Empirical Study](./note/AdversarialAttacksandDefensesonGraphs-AReviewandEmpiricalStudy.md)** (Preprint) [Paper](https://arxiv.org/pdf/2003.00653.pdf)
 
 	
 - **Adversarial Attacks on Deep Learning Models in Natural
