@@ -27,7 +27,7 @@ The aimof adversarial attacks is to maximize the loss value of the model in orde
 $$\max \mathcal{L}_{a t k}\left(f_{\theta}(\hat{G})\right)=\sum_{u \in V_{t}} \ell_{a t k}\left(f_{\theta^{*}}(\hat{G})_{u}, y_{u}\right)$$
 $$s.t., \quad \theta^{*}=\arg \min _{\theta} \mathcal{L}_{\text {train}}\left(f_{\theta}\left(G^{\prime}\right)\right)$$
 
-where $G^\prime$ can either be $G$ or $\hat{G}$. Bot that $\hat{G}$ is chosen from a constrained domain $\Phi(G)$. Gifen a fixed perturbation budget $\Delta$, a typical $\Phi(G)$ can be implemented as $\|\hat{\mathbf{A}}-\mathbf{A}\|_{0}+\|\hat{\mathbf{X}}-\mathbf{X}\|_{0} \leq \Delta$.
+where $G^\prime$ can either be $G$ or $\hat{G}$. But that $\hat{G}$ is chosen from a constrained domain $\Phi(G)$. Given a fixed perturbation budget $\Delta$, a typical $\Phi(G)$ can be implemented as $\|\hat{\mathbf{A}}-\mathbf{A}\|_{0}+\|\hat{\mathbf{X}}-\mathbf{X}\|_{0} \leq \Delta$.
 
 ### Taxonomy of Graph Advversarial Attacks
 
@@ -68,7 +68,7 @@ overall performance on all test data. It is the case when $V_{t} = V$.
 - Targeted Attack
 	- **FGA**: extracts the link gradient information from GCN, and then greedily selects the pair of nodes with maximum absolute gradient to modify the graph iteratively.
 	- **Genetic algorithm based Q-Attack**: attack a number of community detection algorithms.
-	- **Iterative aradient attack (IGA)**: based on the gradient information in the trained graph auto-encoder, which is introduced to attack link perdiction.
+	- **Iterative gradient attack (IGA)**: based on the gradient information in the trained graph auto-encoder, which is introduced to attack link perdiction.
 	- **Knowledge graph embedding attack**: including Direct Delete Attack, Direct Adding Attack and Indirect Attack.
 	- **IG-JSMA**: use integrated gradient to better search for adversarial edge and feature perturbations.
 	- **GUA**: finds a set of anchor nodes (bad actor) to mislead the classification of all nodes in the graph through flipping the connections between the anchors and the target node.
