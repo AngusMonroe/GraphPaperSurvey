@@ -24,8 +24,7 @@
 | --- | --- | --- | --- | --- |
 | Deep Reasoning with Knowledge Graph for Social Relationship Understanding | https://arxiv.org/pdf/1807.00504.pdf | Gated GNN | propose an Graph Reasoning Model that unifies high-level knowledge graph with deep nn <br> a novel graph attention mechanism that explicitly reasons key contextual cues | https://github.com/HCPLab-SYSU/SR |
 | Graph-Structured Representations for Visual Question Answering | https://arxiv.org/pdf/1609.05600.pdf | Gated GNN | make use of an off-the-shelf language parsing tool by generating a graph representation of text that captures grammatical relationships, and by making this information accessible to the VQA model |  |
-| Out of the box:
-Reasoning with graph convolution nets for factual visual question answering | http://papers.nips.cc/paper/7531-out-of-the-box-reasoning-with-graph-convolution-nets-for-factual-visual-question-answering.pdf | Gated GNN | select a list of supporting facts in the KB by ranking GloVe embeddings <br> joint selection of the answer from a list of candidate answers |  |
+| Out of the box: Reasoning with graph convolution nets for factual visual question answering | http://papers.nips.cc/paper/7531-out-of-the-box-reasoning-with-graph-convolution-nets-for-factual-visual-question-answering.pdf | Gated GNN | select a list of supporting facts in the KB by ranking GloVe embeddings <br> joint selection of the answer from a list of candidate answers |  |
 
 
 ## Object Detection
@@ -34,6 +33,9 @@ Reasoning with graph convolution nets for factual visual question answering | ht
 | --- | --- | --- | --- | --- |
 | Relation Networks for Object Detection | https://arxiv.org/pdf/1711.11575.pdf | Graph Attention Network | propose an adapted attention module for object detection which the primitive elements are objects instead of words | https://github.com/msracver/Relation-Networks-for-Object-Detection |
 | Learning region features for object detection | http://openaccess.thecvf.com/content_ECCV_2018/papers/Jiayuan_Gu_Learning_Region_Features_ECCV_2018_paper.pdf | Graph Attention Network  | formulate the feature of each bin of the region as a weighted summation of image features on different positions over the whole image <br> a learnable module that represents the weights in terms of the RoI and image features |  |
+| [Point-GNN: Graph Neural Network for 3D Object Detection in a Point Cloud](./note/Point-GNN.pdf) | https://arxiv.org/pdf/2003.01251.pdf | Graph Attention Network  | We have presented a graph neural network, named PointGNN, to detect 3D objects from a graph representation of the point cloud. By using a graph representation, we
+encode the point cloud compactly without mapping to a grid or sampling and grouping repeatedly. |  |
+
 
 ## Interaction Detection
 

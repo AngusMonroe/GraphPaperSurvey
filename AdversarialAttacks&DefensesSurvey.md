@@ -8,7 +8,7 @@ Use $G = (V, E)$ to denote the structure of a graph where $V=\left\{v_{1}, \ldot
 
 ![截屏2020-07-10 10.01.42.png](https://i.loli.net/2020/07/10/zQfRKYEPIS3bkGj.png)
 
-The aimof adversarial attacks is to maximize the loss value of the model in order eo get wrong prediction. The problem of node-level graph adversarial attacks can be stated as: 
+The aim of adversarial attacks is to maximize the loss value of the model in order to get wrong prediction. The problem of node-level graph adversarial attacks can be stated as: 
 
 $$\max \mathcal{L}_{a t k}\left(f_{\theta}(\hat{G})\right)=\sum_{u \in V_{t}} \ell_{a t k}\left(f_{\theta^{*}}(\hat{G})_{u}, y_{u}\right)$$
 $$s.t., \quad \theta^{*}=\arg \min _{\theta} \mathcal{L}_{\text {train}}\left(f_{\theta}\left(G^{\prime}\right)\right)$$
@@ -22,22 +22,22 @@ where $G^\prime$ can either be $G$ or $\hat{G}$. But that $\hat{G}$ is chosen fr
 	- Evasion Attack
 	- Poisoning Attack
 
-## Perturbation Type
+- Perturbation Type
 
-- Modifying Feature
-- Adding or deleting Edges
-- Injecting Nodes
+	- Modifying Feature
+	- Adding or deleting Edges
+	- Injecting Nodes
 
-## Attacker's Goal
+- Attacker's Goal
 
-- Targeted Attack
-- Untargeted Attack
+	- Targeted Attack
+	- Untargeted Attack
 
-## Attacker's Knowledge
+- Attacker's Knowledge
 
-- White-box Attack
-- Gray-box Attack
-- Black-box Attack
+	- White-box Attack
+	- Gray-box Attack
+	- Black-box Attack
 
 ## Papers
 
@@ -64,7 +64,7 @@ A Review and Empirical Study](./note/AdversarialAttacksandDefensesonGraphs-ARevi
 	
 - **Towards Data Poisoning Attack against Knowledge Graph Embedding** (*IJCAI'19*) [Paper](https://www.researchgate.net/profile/Tianhang_Zheng/publication/332751020_Towards_Data_Poisoning_Attack_against_Knowledge_Graph_Embedding/links/5cd079a7a6fdccc9dd91e1cb/Towards-Data-Poisoning-Attack-against-Knowledge-Graph-Embedding.pdf)
 
-	Put forward a n optimal embedding shifting vector and use this vector to caculate the perturbation benefit scoreof specific candidate to add/delete.
+	Put forward an optimal embedding shifting vector and use this vector to calculate the perturbation benefit score of specific candidate to add/delete.
 	
 - **Adversarial Examples on Graph Data: Deep Insights into Attack and Defense** (*arXiv*) [Paper](https://arxiv.org/pdf/1903.01610.pdf)
 
